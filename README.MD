@@ -6,7 +6,9 @@ Mirai-console的插件模板，同时支持MiraiAndroid；一次编写，两处�
 
 ## 更改Android应用信息
 
-请到`app\src\main\AndroidManifest.xml`按照注释更改信息
+请到`app\src\main\AndroidManifest.xml`和`app/build.gradle`按照注释更改信息
+
+请在``
 
 ## 编写代码
 

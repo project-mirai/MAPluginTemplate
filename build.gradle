@@ -7,7 +7,10 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:4.1.0"
+        // 在这里选择合适的插件版本
+        // idea 用户请使用4.0
+        // android studio用户请使用 4.1.0
+        classpath "com.android.tools.build:gradle:4.0.2"
 
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
