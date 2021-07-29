@@ -1,10 +1,10 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     // 在这里设置kotlin版本
-    ext.kotlin_version = "1.4.21"
+    ext.kotlin_version = "1.4.30"
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
     dependencies {
         // 在这里选择合适的插件版本
@@ -22,7 +22,7 @@ buildscript {
 allprojects {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
 }
 
